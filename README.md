@@ -1,140 +1,169 @@
-# Integrax — Landing Page Institucional
+# INTEGRAX
 
-Landing page oficial da **Integrax**, uma software house focada em criação de sites, sistemas personalizados, agentes inteligentes, chatbots, automações e integrações para empresas.
+Modern Digital Solutions for Growing Businesses.
 
-## Visão geral
+INTEGRAX is a software company focused on building websites, business systems, intelligent agents, chatbots, process automations and custom digital solutions for companies that want to scale efficiently.
 
-Este projeto foi desenvolvido como uma landing page moderna, responsiva e objetiva para apresentar a Integrax e direcionar visitantes para um orçamento via WhatsApp.
+---
 
-A proposta da marca é:
+## About
 
-> Menos trabalho manual. Mais resultados.
+Our mission is simple:
 
-## Tecnologias utilizadas
+**Reduce manual work. Increase results.**
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- Lucide React
+We help businesses streamline operations, automate repetitive tasks and create professional digital experiences through technology.
 
-## Estrutura do projeto
+---
 
-```txt
-.
-├── public/
-│   ├── hero_site.png
-│   ├── imagem_site_card_1.png
-│   ├── imagem_celular_site.png
-│   ├── imagem_final_site.png
-│   ├── logo.svg
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   ├── sections/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.ts
-└── README.md
+## Services
+
+* Professional Websites
+* Landing Pages
+* Business Automation
+* AI Agents
+* Chatbots
+* Custom Systems
+* WhatsApp Automation
+* Telegram Automation
+* Platform Integrations
+
+---
+
+## Technology Stack
+
+This website was built using:
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
+
+---
+
+## Project Structure
+
+```text
+public/
+src/
+├── components/
+├── sections/
+├── App.tsx
+├── main.tsx
+└── index.css
+
+index.html
+package.json
+vite.config.ts
+netlify.toml
 ```
 
-## Como rodar localmente
+---
 
-Instale as dependências:
+## Local Development
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Inicie o servidor de desenvolvimento:
+Start development server:
 
 ```bash
 npm run dev
 ```
 
-Gere a versão de produção:
+Build for production:
 
 ```bash
 npm run build
 ```
 
-Pré-visualize a versão de produção:
+Preview production build:
 
 ```bash
 npm run preview
 ```
 
-## Deploy recomendado
+---
 
-O projeto pode ser hospedado gratuitamente em plataformas como:
+## Deployment
 
-- Netlify
-- Vercel
-- Cloudflare Pages
+Recommended platforms:
 
-### Deploy na Netlify
+* Netlify
+* Vercel
+* Cloudflare Pages
 
-1. Suba este projeto para um repositório no GitHub.
-2. No Netlify, clique em **Add new site**.
-3. Selecione o repositório.
-4. Use as configurações:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-5. Conecte o domínio da Integrax no painel de domínios.
+Production build directory:
 
-## Informações públicas de contato
+```text
+dist
+```
 
-As informações abaixo aparecem no front-end e são intencionalmente públicas:
+Build command:
 
-- WhatsApp comercial
-- E-mail institucional
-- Instagram
-- TikTok
-
-Não há chaves privadas, tokens, senhas, APIs secretas ou credenciais armazenadas neste projeto.
-
-## Segurança e privacidade
-
-Este projeto é apenas uma landing page estática. Ele não possui:
-
-- Banco de dados
-- Backend
-- Autenticação
-- Painel administrativo
-- Variáveis de ambiente obrigatórias
-- Chaves de API
-- Integrações privadas
-
-Caso futuramente sejam adicionadas integrações, gateways de pagamento, webhooks ou APIs, utilize variáveis de ambiente e nunca exponha credenciais no front-end.
-
-## Manutenção
-
-Principais arquivos para edição:
-
-- Conteúdo e seções: `src/sections/`
-- Estilos globais: `src/index.css`
-- Imagens e favicon: `public/`
-- Configuração do Vite: `vite.config.ts`
-
-## Marca
-
-Identidade visual principal:
-
-- Grafite profundo: `#111827`
-- Azul elétrico: `#2563EB`
-- Ciano tecnológico: `#22D3EE`
-- Branco: `#F9FAFB`
-
-Tipografia recomendada:
-
-- Títulos: Sora
-- Textos: Inter
+```bash
+npm run build
+```
 
 ---
 
-© 2026 Integrax. Todos os direitos reservados.
+## Contact
+
+Website:
+https://integraxofc.com.br
+
+Email:
+[contato@integrax.com.br](mailto:contato@integrax.com.br)
+
+Instagram:
+@integrax.ofc
+
+TikTok:
+@integrax.ofc
+
+---
+
+## Security
+
+This repository does not contain:
+
+* API keys
+* Private tokens
+* Credentials
+* Environment secrets
+
+Any future integrations should use environment variables and secure server-side implementations.
+
+---
+
+## Brand Identity
+
+Primary Colors:
+
+* #111827
+* #2563EB
+* #22D3EE
+* #F9FAFB
+
+Typography:
+
+* Sora
+* Inter
+
+---
+
+## Philosophy
+
+Technology should not create complexity.
+
+Technology should create leverage.
+
+INTEGRAX develops solutions that help businesses operate faster, look more professional and grow with confidence.
+
+---
+
+© 2026 INTEGRAX. All Rights Reserved.
