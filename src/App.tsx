@@ -1,3 +1,5 @@
+import FAQ from './sections/FAQ';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 import { Header } from './sections/Header';
 import { Hero } from './sections/Hero';
 import { Solutions } from './sections/Solutions';
@@ -17,7 +19,9 @@ function App() {
         <BeforeAfter />
         <HowItWorks />
         <CTA />
+        <FAQ />
         <Contact />
+        <FloatingWhatsApp />
       </main>
       <Footer />
     </div>
