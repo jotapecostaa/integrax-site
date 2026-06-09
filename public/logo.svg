@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 36" fill="none">
+  <!-- X symbol: two crossing diagonal paths with dots, matching actual brand -->
+  <g>
+    <!-- Top-left to bottom-right stroke -->
+    <line x1="5" y1="7" x2="17" y2="29" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+    <!-- Top-right to bottom-left stroke -->
+    <line x1="19" y1="7" x2="7" y2="29" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+    <!-- Accent dots -->
+    <circle cx="3.5" cy="7" r="2.5" fill="#22D3EE"/>
+    <circle cx="20.5" cy="7" r="2.5" fill="#22D3EE"/>
+    <circle cx="5" cy="29.5" r="2" fill="#2563EB" opacity="0.5"/>
+    <circle cx="19" cy="29.5" r="2" fill="#2563EB" opacity="0.5"/>
+  </g>
+  <!-- Wordmark -->
+  <text
+    x="32"
+    y="25"
+    font-family="system-ui, -apple-system, 'Helvetica Neue', sans-serif"
+    font-size="15"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#F9FAFB"
+  >INTEGRAX</text>
+</svg>

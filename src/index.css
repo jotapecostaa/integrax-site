@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+
+  ::selection {
+    background: rgba(37, 99, 235, 0.25);
+    color: #F9FAFB;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    background: linear-gradient(135deg, #2563EB, #22D3EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl font-heading font-semibold text-sm tracking-wide transition-all duration-300;
+    background: #2563EB;
+    color: #ffffff;
+    letter-spacing: 0.01em;
+  }
+
+  .btn-primary:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.3);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl font-heading font-semibold text-sm tracking-wide transition-all duration-300;
+    background: transparent;
+    color: rgba(249, 250, 251, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-secondary:hover {
+    border-color: rgba(255, 255, 255, 0.22);
+    color: #F9FAFB;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  /* Dark section variant */
+  .btn-primary-light {
+    @apply inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl font-heading font-semibold text-sm tracking-wide transition-all duration-300;
+    background: #2563EB;
+    color: #ffffff;
+    letter-spacing: 0.01em;
+  }
+
+  .btn-primary-light:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.25);
+  }
+
+  .section-pad {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  /* Image frame for dark sections */
+  .img-frame-dark {
+    @apply relative overflow-hidden rounded-2xl;
+    background: #f0f2f5;
+    min-height: 220px;
+    box-shadow:
+      0 40px 80px -20px rgba(0, 0, 0, 0.5),
+      0 0 0 1px rgba(255, 255, 255, 0.04);
+  }
+
+  /* Image frame for light sections — no background needed, image blends naturally */
+  .img-frame-light {
+    @apply relative overflow-hidden rounded-2xl;
+    background: #ffffff;
+    min-height: 220px;
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.15);
+  }
+
+  .img-frame-dark img,
+  .img-frame-light img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Legacy alias used in Hero */
+  .image-container {
+    @apply relative overflow-hidden rounded-2xl;
+    background: #f0f2f5;
+    min-height: 260px;
+    box-shadow:
+      0 40px 80px -20px rgba(0, 0, 0, 0.5),
+      0 0 0 1px rgba(255, 255, 255, 0.04);
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    @apply rounded-2xl border;
+    background: rgba(255, 255, 255, 0.025);
+    border-color: rgba(255, 255, 255, 0.06);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+
+  .card-hover:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
